@@ -1,0 +1,54 @@
+.chart {
+  margin: 20px auto;
+  max-width: 1280px;
+  min-width: 375px;
+  width: auto;
+
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0 0 40px;
+  }
+
+  &__list {
+    margin: 0 0 40px;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__data {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+ }
+
+  &__name {
+    width: 100px;
+  }
+
+  &__time {
+    background-color: #f3f3f3;
+    color: #313237;
+    flex-grow: 1;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-random {
+      width: 150px;
+      height: 40px;
+      border: 1px solid #D53C51;
+      background-color: #f096a2;
+      color: #313237;
+      transition: border-width 0.3s linear;
+
+      &:hover {
+        border-width: 3px;
+      }
+    }
+  }
+}
