@@ -1,9 +1,10 @@
-# React TypeScript Starter Pack
+# React Chart App
 
-To use this template click `Use this template`
+Created a responsive React app with a chart component.
+When the page is loaded, the diagram is generated according to the initial data.
+The chart has a button, when you click on it, the data changes randomly.
+The data changes automatically after 30 seconds.
 
-### Available Scripts
+Used React, Typescript, Javascript, СSS, HTML
 
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+[DEMO LINK](https://obordiug.github.io/bordiugfe220707/)
